@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("messFeedback2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a1e08d7164d77a5936b5e0648669323f561d5ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d91368769d780ac7b6c3a0de01deb7dfe47a7044")]
 [assembly: System.Reflection.AssemblyProductAttribute("messFeedback2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("messFeedback2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
