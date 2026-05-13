@@ -45,6 +45,7 @@
             roundedPanel1 = new RoundedPanel();
             btnSubmit = new Button();
             btnClear = new Button();
+            button1 = new Button();
             roundedPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -212,7 +213,7 @@
             // btnSubmit
             // 
             btnSubmit.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnSubmit.Location = new Point(289, 692);
+            btnSubmit.Location = new Point(104, 692);
             btnSubmit.Name = "btnSubmit";
             btnSubmit.Size = new Size(255, 47);
             btnSubmit.TabIndex = 14;
@@ -223,18 +224,31 @@
             // btnClear
             // 
             btnClear.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnClear.Location = new Point(877, 692);
+            btnClear.Location = new Point(488, 692);
             btnClear.Name = "btnClear";
             btnClear.Size = new Size(253, 47);
             btnClear.TabIndex = 15;
             btnClear.Text = "Clear";
             btnClear.UseVisualStyleBackColor = true;
+            btnClear.Click += btnClear_Click;
+            // 
+            // button1
+            // 
+            button1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.Location = new Point(860, 692);
+            button1.Name = "button1";
+            button1.Size = new Size(253, 47);
+            button1.TabIndex = 16;
+            button1.Text = "Go to Admin Dashboard";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1243, 751);
+            Controls.Add(button1);
             Controls.Add(btnClear);
             Controls.Add(btnSubmit);
             Controls.Add(roundedPanel1);
@@ -276,5 +290,6 @@
         private RoundedPanel roundedPanel1;
         private Button btnSubmit;
         private Button btnClear;
+        private Button button1;
     }
 }

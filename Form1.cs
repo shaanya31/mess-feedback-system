@@ -122,5 +122,17 @@ namespace messFeedback2
             cmbRating.SelectedIndex = -1;
             cmbCategory.SelectedIndex = -1;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 adminForm = new Form2();
+            adminForm.Show(); // Show admin form
+            this.Hide(); // Hide current form
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            ClearForm();
+        }
     }
 }

@@ -14,3 +14,6 @@ C:\Users\shany\source\repos\messFeedback2\messFeedback2\obj\Debug\net10.0-window
 C:\Users\shany\source\repos\messFeedback2\messFeedback2\obj\Debug\net10.0-windows\messFeedback2.pdb
 C:\Users\shany\source\repos\messFeedback2\messFeedback2\obj\Debug\net10.0-windows\messFeedback2.genruntimeconfig.cache
 C:\Users\shany\source\repos\messFeedback2\messFeedback2\obj\Debug\net10.0-windows\ref\messFeedback2.dll
+C:\Users\shany\source\repos\messFeedback2\messFeedback2\obj\Debug\net10.0-windows\messFeedback2.Form2.resources
+C:\Users\shany\source\repos\messFeedback2\messFeedback2\obj\Debug\net10.0-windows\messFeedback2.sourcelink.json
+C:\Users\shany\source\repos\messFeedback2\messFeedback2\obj\Debug\net10.0-windows\messFeedback2.Form3.resources
